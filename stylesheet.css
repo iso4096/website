@@ -11,5 +11,5 @@ main {
     position: fixed;
     right: -15%;
     top: 30%;
-    filter: blur(5px) brightness(85%);
+    filter: blur(7px) brightness(65%);
 }
