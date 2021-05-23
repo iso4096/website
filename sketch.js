@@ -12,7 +12,7 @@ function setup() {
   
 
 function draw() {
-    background(0, 0, 0, 255);
+    background(4, 49, 11, 255);
   
     rotateZ(zRot);
     rotateX(xRot);
@@ -20,7 +20,7 @@ function draw() {
   
     //pass image as texture
     texture(img);
-    sphere(500, 100, 100);
+    sphere(600, 100, 100);
 
     xRot += 0.001;
     zRot += 0.0004;
