@@ -11,6 +11,7 @@ function setup() {
   
 function draw() {
     background(255, 255, 255, 255);
+    noStroke();
   
     rotateZ(theta * mouseX * 0.001);
     rotateX(theta * mouseX * 0.001);
@@ -18,7 +19,7 @@ function draw() {
   
     //pass image as texture
     texture(img);
-    sphere(80);
+    sphere(300);
   
     theta += 0.05;
   }
