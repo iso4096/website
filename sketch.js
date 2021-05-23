@@ -6,6 +6,7 @@ function preload() {
 }
 
 function setup() {
+    noStroke();
     createCanvas(windowWidth, windowHeight, WEBGL)
 }
   
@@ -20,7 +21,8 @@ function draw() {
     //pass image as texture
     texture(img);
     sphere(300, 100, 100);
+    translate(-windowWidth/3, -windowHeight/3.5)
 
-    xRot += 0.0005;
-    zRot += 0.0002;
+    xRot += 0.001;
+    zRot += 0.0004;
 }
