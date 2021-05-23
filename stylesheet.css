@@ -6,3 +6,9 @@ body {
     position: fixed;
     background-color: black;
 }
+
+main {
+    position: fixed;
+    left: 33%;
+    top: 40%;
+}

@@ -20,7 +20,6 @@ function draw() {
   
     //pass image as texture
     texture(img);
-    translate(-windowWidth/3, 0, -windowHeight/3.5);
     sphere(300, 100, 100);
 
     xRot += 0.001;
