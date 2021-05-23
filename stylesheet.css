@@ -4,12 +4,12 @@ body {
     left: 0px;
     right: 0px;
     position: fixed;
-    background-color: #040b31;
+    background-color: #020413;
 }
 
 main {
     position: fixed;
-    right: 90%;
-    top: 50%;
+    right: -15%;
+    top: 30%;
     filter: blur(5px);
 }
