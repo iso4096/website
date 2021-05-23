@@ -9,7 +9,7 @@ body {
 
 main {
     position: fixed;
-    right: 20%;
-    top: 40%;
+    right: 15%;
+    top: 35%;
     filter: blur(5px);
 }
