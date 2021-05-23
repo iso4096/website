@@ -11,7 +11,6 @@ function setup() {
   
 function draw() {
     background(255, 255, 255, 255);
-    noStroke();
   
     rotateZ(theta * 0.001);
     rotateX(theta * 0.001);
