@@ -13,13 +13,13 @@ function draw() {
     background(255, 255, 255, 255);
     noStroke();
   
-    rotateZ(theta * mouseX * 0.001);
-    rotateX(theta * mouseX * 0.001);
-    rotateY(theta * mouseX * 0.001);
+    rotateZ(theta * 0.000005);
+    rotateX(theta * 0.000005);
+    rotateY(theta * 0.000005);
   
     //pass image as texture
     texture(img);
     sphere(300, 100, 100);
   
-    theta += 0.05;
+    theta ++;
   }
