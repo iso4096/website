@@ -19,7 +19,7 @@ function draw() {
   
     //pass image as texture
     texture(img);
-    sphere(300, 24, 24);
+    sphere(300, 100, 100);
   
     theta += 0.05;
   }
