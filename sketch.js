@@ -12,7 +12,7 @@ function setup() {
   
 
 function draw() {
-    background(4, 11, 49, 255);
+    background(2, 4, 19, 255);
   
     rotateZ(zRot);
     rotateX(xRot);
