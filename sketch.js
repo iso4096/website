@@ -13,9 +13,9 @@ function draw() {
     background(255, 255, 255, 255);
     noStroke();
   
-    rotateZ(0.001);
-    rotateX(0.001);
-    rotateY(0.001);
+    rotateZ(theta * 0.001);
+    rotateX(theta * 0.001);
+    rotateY(theta * 0.001);
   
     //pass image as texture
     texture(img);
