@@ -12,9 +12,9 @@ function draw() {
   texture(img);
   textureMode(NORMAL);
   beginShape();
-  vertex(-50, -50, 0, 0);
-  vertex(50, -50, 1, 0);
-  vertex(50, 50, 1, 1);
-  vertex(-50, 50, 0, 1);
+  vertex(-20, -40, 0, 0);
+  vertex(20, -50, 1, 0);
+  vertex(20, 20, 1, 1);
+  vertex(-40, 20, 0, 1);
   endShape();
 }
