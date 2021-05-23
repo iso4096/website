@@ -1,24 +1,26 @@
 let img;
-var theta = 0;
+var xRot = 70, yRot = 50, zRot = 0;
 
 function preload() {
-  img = loadImage('assets/zh.jpg');
+    img = loadImage('assets/marscy1.jpg');
 }
 
 function setup() {
     createCanvas(windowWidth, windowHeight, WEBGL)
 }
   
+
 function draw() {
     background(255, 255, 255, 255);
   
-    rotateZ(theta * 0.001);
-    rotateX(theta * 0.001);
-    rotateY(theta * 0.001);
+    rotateZ(zRot);
+    rotateX(xRot);
+    rotateY(yRot);
   
     //pass image as texture
     texture(img);
     sphere(300, 100, 100);
 
-    theta += theta > 100 ? 0 : 0.01;
-  }
+    xRot += 0.005;
+    yRot += 0.002;
+}
