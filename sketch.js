@@ -2,7 +2,7 @@ let img;
 var xRot = 70, yRot = 50;
 
 function preload() {
-    img = loadImage('assets/marscyl1.jpg');
+    img = loadImage('marscyl1.jpg');
 }
 
 function setup() {
