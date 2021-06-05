@@ -9,14 +9,12 @@ function setup() {
     noStroke();
     createCanvas(2880, 1800, WEBGL)
 }
-  
 
 function draw() {
     background(2, 4, 19, 255);
   
     rotateX(xRot);
-  
-    //pass image as texture
+    
     texture(img);
     sphere(700, 100, 100);
 
