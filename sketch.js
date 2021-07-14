@@ -1,13 +1,12 @@
 let img;
 var xRot = 70, yRot = 50;
-
 function preload() {
-    img = loadImage('assets/marscyl1.jpg');
+    img = loadImage('https://iso4096.github.io/website/assets/marscyl1.jpg');
 }
 
 function setup() {
     noStroke();
-    createCanvas(2880, 1800, WEBGL)
+    createCanvas(2880, 1800, WEBGL);
 }
 
 function draw() {
